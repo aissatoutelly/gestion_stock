@@ -32,7 +32,7 @@ public class ProduitDto {
     private String nomCategorie;
 
     @NotNull(message = "L'idfournisseur est obligatoire")
-    private Integer idfournisseur;// Nouveau champ
+    private Integer idfournisseur;// Nouveau champ Fournisseur
 
     public static ProduitDto fromEntity(Produit produit) {
         if (produit == null) {
