@@ -34,6 +34,4 @@ public class LigneAchat {
     public void calculerMontantTotal() {
         this.montantTotal = this.quantite * this.prixUnitaire;
     }
-
-    // Getters et Setters
 }
