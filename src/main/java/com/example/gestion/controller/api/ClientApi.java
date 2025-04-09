@@ -15,7 +15,7 @@ public interface ClientApi {
 
     @GetMapping(value="/Client/list", produces = MediaType.APPLICATION_JSON_VALUE)
     List<ClientDto>findAll();
-
+     //List client
     @PutMapping(value = "Client/{id}",  produces = MediaType.APPLICATION_JSON_VALUE)
     ResponseEntity<Map<String, Object>> modifyClient(@Valid @RequestBody ClientDto dto, @PathVariable Integer id);
 
